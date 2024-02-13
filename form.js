@@ -1,5 +1,11 @@
+
+function salir() {
+    alert("Saliendo del formulario");
+}
+
 document.getElementById('registro-form').addEventListener('submit', function (event) {
-    event.preventDefault(); // Evita que se envíe el formulario
+    event.preventDefault(); 
+    // Evita que se envíe el formulario
 
     const nombre = document.getElementById('nombre').value;
     const email = document.getElementById('email').value;
