@@ -1,0 +1,19 @@
+body{
+    background-image: url("./fondo-formulario.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+.Contenedor{
+    text-align: center;
+    
+}
+
+.primer{
+    background-image: url("./Personaje1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 75px;
+    border-radius: 35px;
+}
